@@ -1,7 +1,7 @@
 ## About Project
 
 Laravel api for generating random strings,floats,integers,arrays and etc.
-Just generate what you need with randomcrap
+Just generate what you need with Randomcrap
 
 ## Requirements
 
@@ -12,7 +12,7 @@ Just generate what you need with randomcrap
 
 Require package:
 ``` bash
-composer require seymuromarov/randomcrap 1.0.0
+composer require seymuromarov/randomcrap 1.0.1
 ```
 
 Now add the service provider in config/app.php file:
@@ -28,7 +28,7 @@ after this add alias in config/app.php file:
 ``` 
 'aliases' => [
  //...
-        'RandomCrap' => Seymuromarov\Randomcrap\Facades\Randomcrap::class,
+        'Randomcrap' => Seymuromarov\Randomcrap\Facades\Randomcrap::class,
  ],
 ```
 

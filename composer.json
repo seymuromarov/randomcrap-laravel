@@ -34,7 +34,7 @@
         "Seymuromarov\\Randomcrap\\RandomcrapServiceProvider"
       ],
       "aliases": {
-        "RandomCrap": "Seymuromarov\\Randomcrap\\Facade\\Randomcrap"
+        "Randomcrap": "Seymuromarov\\Randomcrap\\Facade\\Randomcrap"
       }
     }
   }
