@@ -1,0 +1,41 @@
+{
+  "name": "seymuromarov/randomcrap",
+  "description": "Laravel api for generating random strings,floats,integers,arrays and etc.",
+  "type": "laravel",
+  "keywords": [
+    "azerbaijan",
+    "randomcrap",
+    "random",
+    "array",
+    "string",
+    "integer",
+    "laravel",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Seymur Omarov",
+      "email": "omarov.seymur@outlook.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seymuromarov\\Randomcrap\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Seymuromarov\\Randomcrap\\RandomcrapServiceProvider"
+      ],
+      "aliases": {
+        "RandomCrap": "Seymuromarov\\Randomcrap\\Facade\\Randomcrap"
+      }
+    }
+  }
+}
