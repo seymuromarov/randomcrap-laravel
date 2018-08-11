@@ -24,35 +24,35 @@ class RandomcrapGenerator
         return random_int($min, $max);
     }
 
-    protected function stringWithNumber($len = 6)
+    public function stringWithNumber($len = 6)
     {
         $word = array_merge(range('a', 'z'), range('A', 'Z'), range(1, 9));
         shuffle($word);
         return substr(implode($word), 0, $len);
     }
 
-    protected function upperCaseStringWithNumber($len = 6)
+    public function upperCaseStringWithNumber($len = 6)
     {
         $word = array_merge(range('A', 'Z'), range(1, 9));
         shuffle($word);
         return substr(implode($word), 0, $len);
     }
 
-    protected function lowerCaseStringWithNumber($len = 6)
+    public function lowerCaseStringWithNumber($len = 6)
     {
         $word = array_merge(range('a', 'z'), range(1, 9));
         shuffle($word);
         return substr(implode($word), 0, $len);
     }
 
-    protected function upperCaseString($len = 6)
+    public function upperCaseString($len = 6)
     {
         $word = array_merge(range('A', 'Z'));
         shuffle($word);
         return substr(implode($word), 0, $len);
     }
 
-    protected function lowerCaseString($len = 6)
+    public function lowerCaseString($len = 6)
     {
         $word = array_merge(range('a', 'z'));
         shuffle($word);
