@@ -12,7 +12,7 @@ Just generate what you need with Randomcrap
 
 Require package:
 ``` bash
-composer require seymuromarov/randomcrap 1.0.1
+composer require seymuromarov/randomcrap
 ```
 
 Now add the service provider in config/app.php file:
